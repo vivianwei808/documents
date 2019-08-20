@@ -17,6 +17,4 @@
 
 1. shell：常用的shell脚本 及CI/CD相关脚本，数据库备份、检测ip网段是否可用（能否ping通）、httpd状态检查（可扩展为应用的启动、停止等）、系统基本情况检测
 2. xxxx
-3. xxxx
-
-ß
+3. docker 所有相关内容 见docker.docx目录
