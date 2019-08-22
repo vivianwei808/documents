@@ -2,13 +2,13 @@ spring:
   datasource:
     ###可读数据源
     select:
-      jdbc-url: jdbc:mysql://192.168.212.205:8066/mycat_testdb
+      jdbc-url: jdbc:mysql://192.168.212.205:8066/testdb
       driver-class-name: com.mysql.jdbc.Driver
       username: user
       password: user
     ####可写数据源  
     update:
-      jdbc-url: jdbc:mysql://192.168.212.205:8066/mycat_testdb
+      jdbc-url: jdbc:mysql://192.168.212.206:8066/testdb
       driver-class-name: com.mysql.jdbc.Driver
       username: root
       password: 123456

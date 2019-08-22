@@ -44,7 +44,7 @@ server-id=1
 ### 读写分离
 读写分离基于mysql的主从配置，读从库，写主库。
 
-#### 基于mycat+springboot2.0配置读写分离
+#### 基于mycat配置读写分离
 
 ##### 什么是MyCat
   MyCAT是一款由阿里Cobar演变而来的用于支持数据库，读写分离、分表分库的分布式中间件。MyCAT支持Oracle、MSSQL、MYSQL、PG、DB2关系型数据库，同时也支持MongoDB等非关系型数据库。
@@ -81,4 +81,5 @@ server-id=1
 ```mycat配置见项目main->resources里```
 
 
+#### 基于springboot2.0配置实现读写分离  一主一从
 ```springboot配置以及项目见github->documents->db->mysql_read_write```
