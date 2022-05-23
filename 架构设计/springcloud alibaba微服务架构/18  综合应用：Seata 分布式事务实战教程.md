@@ -799,7 +799,6 @@ OrderFeignClient 是 rm-order 服务的 OpenFeign 客户端。</p>
     PointsFeignClient pointsFeignClient;
     <span class="hljs-meta">@Resource</span>
     StorageFeignClient storageFeignClient;
-
     <span class="hljs-meta">@GlobalTransactional(name = "seata-group-tx-mall", rollbackFor = {Exception.class})</span>
     <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">sale</span><span class="hljs-params">(Integer orderId,Integer memberId,Integer goodsId,Integer points,Integer quantity)</span> </span>{
         String orderResult = orderFeignClient.createOrder(orderId,memberId,goodsId,points,quantity);
